@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 20vh;
+}
+.banner {
+  height: 60vh;
+}
+.footer {
+  height: 20vh;
+}
+.d-flex {
+  display: flex;
+}
+.col-8 {
+  width: 80%;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  width: 42px;
+  height: 18px;
+  border: 1px solid black;
+}
+li:hover {
+  transform: scale(1.2);
+}
+.option {
+  margin-left: 20px;
+  padding: 10px;
+}
+.header.focused {
+  border: 1px solid red;
+}
+.footer.focused {
+  border: 1px solid red;
+}
+.banner.focused {
+  border: 1px solid red;
+}
